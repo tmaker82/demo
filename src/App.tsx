@@ -1,15 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="App">
+            <div>one div</div>
+            <div>
+                <ul>
+                    <li>css</li>
+                    <li>html</li>
+                    <li>js</li>
+                    <li>react</li>
+                </ul>
+            </div>
+        </div>
+    );
 }
 
 export default App;
